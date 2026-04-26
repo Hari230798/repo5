@@ -29,3 +29,4 @@ Docker installation:
     7.  sudo apt install docker-ce
     8.  sudo systemctl status docker
     9.  sudo usermod -aG docker ${USER}
+    10. sudo chmod 666 /var/run/docker.sock
